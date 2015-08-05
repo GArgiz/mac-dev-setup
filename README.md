@@ -28,6 +28,7 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [Node.js](#nodejs)
 - [Ruby and RVM](#ruby-and-rvm)
 - [Go](#go)
+- [GDB](#gdb)
 - [Heroku](#heroku)
 - [MongoDB](#mongodb)
 - [PostgreSQL](#postgresql)
@@ -979,6 +980,11 @@ To the run the go tour, just run the following:
 $ go get code.google.com/p/go-tour/gotour
 $ gotour
 ```
+
+## GDB
+GDB was moved from Maveriks and the default debugger is LLDB. This is not an issue if you will use XCode, but, if you feel confortable with Eclipse, this could be a BIG issue, because Eclipse doesn't work with LLVM.
+Reinstall GDB could be a tedious task.. best tutorial I found is [here](http://ntraft.com/installing-gdb-on-os-x-mavericks/) and works for Mavericks and Yosemite.
+
 
 ## Heroku
 
